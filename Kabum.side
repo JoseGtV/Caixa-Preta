@@ -1,0 +1,2250 @@
+{
+  "id": "ff53f8f6-460d-4199-9b60-df828627f158",
+  "version": "2.0",
+  "name": "Kabum",
+  "url": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+  "tests": [{
+    "id": "f08c7b9d-bd4c-4638-97e7-cda366fdc675",
+    "name": "1.LoginEmailComCaractere_Senha_Correta",
+    "commands": [{
+      "id": "e3fc3832-e282-49e6-aeb5-8c63d2e355b6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "922dac99-54b4-4f16-9b5f-41a5fec737b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68c1e22c-a210-4e28-92d1-49ff1bd9fdbb",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bda7d59-7d12-4a10-b4ee-c3cfb779f3c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "gugudeoliva@gmail.com"
+    }, {
+      "id": "afb89128-2386-40be-98ac-f5d19c500208",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@555jojo"
+    }, {
+      "id": "6f5eb8b1-d0d9-495a-8377-156ef4ea54ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-fwRBTg",
+      "targets": [
+        ["css=.sc-fwRBTg", "css:finder"],
+        ["xpath=//div[@id='main-content']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "598e4a06-6c99-4a1f-93e7-054e07375865",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01de7c6d-7f56-41da-89cf-da754177d9fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf68ae73-21a9-4350-aa50-2249241e9f91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IconEyeClose > path:nth-child(1)",
+      "targets": [
+        ["css=.IconEyeClose > path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "69e2f7eb-60dc-4bc6-baa3-eb51251504c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IconEye",
+      "targets": [
+        ["css=.IconEye", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c0e75b7-caab-4438-b4d4-4822e479eaa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-hpGnlu > span",
+      "targets": [
+        ["css=.sc-hpGnlu > span", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2a16720a-2189-41f4-96b2-347c10bb5d04",
+    "name": "2.LoginEmailSemCaractere_Senha_Correta",
+    "commands": [{
+      "id": "c46854cd-4dc0-470e-ac4a-ce3a737cd5e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd850282-d169-4557-bf0e-e3c713a8e324",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bdfe6d1-2cb5-4421-afca-72175ffcc053",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ed90f1a-da58-4590-b7da-1e7ed96677e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "gugudeolivagmail.com"
+    }, {
+      "id": "701057af-9a80-40f8-9bf0-bb9f83884475",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@555jojo"
+    }, {
+      "id": "8072d77f-5b4a-419b-80cc-4b50cce961e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-huFNyZ",
+      "targets": [
+        ["css=.sc-huFNyZ", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a1e4c9c4-f3b9-4db3-ae7a-07e1cc1013bc",
+    "name": "3.LoginCPFValidoSemFormatacao_Senha_Correta",
+    "commands": [{
+      "id": "e67b1a78-e99f-4db4-9323-8ff73bf462fe",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f13b546-1245-4f0d-939a-b51fd5aa77ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9c1f639-bac2-4093-8d98-b0dce7ef6331",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d63050a9-60d1-44fe-868b-83afe9d05d4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "39873248803"
+    }, {
+      "id": "b904641d-4f3b-4a77-9251-4e8e32d0afd5",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@555jojo"
+    }, {
+      "id": "c6482073-eb51-460d-838f-e3abb96fe3f9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "4e489cc6-ac92-417e-a702-1b5713114428",
+    "name": "10.LoginCPFInvalidoSemFormatacao_Senha_Correta",
+    "commands": [{
+      "id": "1c4de29b-b233-44ab-84e1-d1afe8489d6b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f2cd4a6-0659-4f98-9217-78daf53e6d4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3edea8d0-12ab-4eab-9449-71aaa51911b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2275a170-62ca-41f7-982c-06742471d9f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "99999999999"
+    }, {
+      "id": "14a01b2c-1930-4039-b32c-100384be427e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@555jojo"
+    }, {
+      "id": "ba36b0e6-7680-484a-b8ec-45bd6b87cce5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "24c75243-5986-4b3f-976e-75ec8fae23d9",
+    "name": "5.LoginCNPJValidoSemFormatacaoCorreta_Senha_Correta",
+    "commands": [{
+      "id": "e82368e3-652b-4db8-b1dd-a43d29304e9f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ba2c1c9-6817-4342-bf7b-a000da34950a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c85b4ce-5b75-4604-aa1a-64f8f75db873",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dOtRHS .sc-fWOSwS",
+      "targets": [
+        ["css=.sc-dOtRHS .sc-fWOSwS", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06de1990-cb3f-479a-b42e-0acddb592cd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8d98073-6eeb-404a-b752-df31f3307211",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b60cbd1f-e033-43bd-b0cb-c523028a452a",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5ceae59-b98b-4f78-8c59-697d19ef248e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f3b6901-0058-41da-bcec-0a6daad04598",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "55576177000122"
+    }, {
+      "id": "1c7abd6e-ab52-4652-88fd-d11e6c85c4f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be183331-8a4f-4475-baa7-159e651d03d1",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@2003"
+    }, {
+      "id": "659af809-6273-4492-b940-7c4772645b8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IconLoginButton",
+      "targets": [
+        ["css=.IconLoginButton", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "56dda9aa-9bbe-402b-9d71-c38e3abb0c28",
+    "name": "8.LoginEmailSemCaractere_Senha_Incorreta",
+    "commands": [{
+      "id": "74c9ef6f-b060-4ade-aac2-f103192b1c11",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41e53d6f-0867-40f7-a777-eda749e0cb7a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e84e61f-077a-41ab-9316-00710d940ad0",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4ad6b7f-0e5b-49a7-93a5-ed3155b3f0e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "gugudeolivagmail.com"
+    }, {
+      "id": "29012ae1-b57a-433d-8157-6b92ab6c4155",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "dklsakdas"
+    }, {
+      "id": "6dff65b8-d294-45f4-a630-f14d6d8f491e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-hpGnlu",
+      "targets": [
+        ["css=.sc-hpGnlu", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e13e7ab2-6523-4709-8b9b-22e2e6ec2f47",
+    "name": "7.LoginEmailComCaractere_Senha_Incorreta",
+    "commands": [{
+      "id": "761ece66-c541-43f2-bd6c-c325dd3a6062",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2beba64b-9fdb-4f1a-87ad-b8c0d60cad67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "637ce27a-99be-49ee-9aa5-80680e3a6a04",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d0de14a-4d21-42ce-af4e-0360b0da4a52",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "gugudeoliva@gmail.com"
+    }, {
+      "id": "30dec814-b88c-4a77-bd45-65eaa8ec9961",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@555jojojo"
+    }, {
+      "id": "e3b9305b-4566-4e56-a972-6e2c7637e034",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "7ba29c7a-7a7e-41ea-a83f-6f3dc2ed5281",
+    "name": "12.LoginCPFValidoComFormatacao_Senha_Correta",
+    "commands": [{
+      "id": "d414a609-7120-4ce0-a97d-af2f1ad234d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3e016b4-e332-4b12-a386-952df847496b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8678cf6-f706-4ef9-b582-e46b32d1c01a",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "047ebd5b-2ab3-443b-b1b4-4a8902acbdf2",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "398.732.488-03"
+    }, {
+      "id": "78aef734-d8ef-489e-927a-cbda2f937a9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@555jojo"
+    }, {
+      "id": "58fb9657-0bfb-4119-9b55-dcfc4f9f813a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-hpGnlu",
+      "targets": [
+        ["css=.sc-hpGnlu", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f5c600fb-e1ff-4a32-8825-289f3aad578f",
+    "name": "11.LoginCPFNumeroDeCaracteres_Errado",
+    "commands": [{
+      "id": "c2cadaed-ef33-4509-96b1-3420d943a366",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb55019b-9b8c-4fe3-8a6f-51e95aa18920",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f14a8f2-78cf-4837-ab88-97f0acbee201",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d626bbc9-febc-42d6-b5f5-c7f44c8b33e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "456456456456456"
+    }, {
+      "id": "38b287f6-91be-4555-82c0-60d78d4d67b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@555jojo"
+    }, {
+      "id": "f6f1973f-f58c-4152-804e-93bfec0ff900",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "3d7c40da-2a0e-428a-9b1d-8b49cd8352b8",
+    "name": "13.VisualizacaoDaSenha",
+    "commands": [{
+      "id": "b4992313-e278-4aab-af48-43c756743370",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4bc2161-3e2a-40da-a5ab-a1184c2f9f8b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e59d0fdd-e36f-445e-9a8e-a08a3bf6bd30",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10ad72a5-1893-4072-b1cd-6d014cc1a658",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hdiosahdoisa@gmail.com"
+    }, {
+      "id": "bcbead87-90f7-433e-905e-4f6ad3bd4894",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "jdjkdllkda"
+    }, {
+      "id": "6893c48d-9648-42bc-b548-003d444deb61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IconEyeClose > path:nth-child(2)",
+      "targets": [
+        ["css=.IconEyeClose > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "527d3bb0-a75c-4924-974d-912fca83342d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IconEye",
+      "targets": [
+        ["css=.IconEye", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "43aa37e9-f4fa-4724-be6a-99859c6d8575",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.IconEye",
+      "targets": [
+        ["css=.IconEye", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05dac145-bf48-4e60-b29a-68ca75d7a1db",
+    "name": "16.LoginCNPJValidoComFormatacao_Senha_Incorreta",
+    "commands": [{
+      "id": "2a0a1290-569c-45b4-b618-f7773a4a5c9d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bd7a70f-6bbc-4510-96d8-bf06f3d4fc84",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b69a7fe-482f-45b7-8e89-91a20ea91c81",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "306e3922-3158-4b0a-872e-3aaea391715e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c03a016-4aa9-4b8b-ab44-7e8c8f8f341d",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "55.576.177/0001-22"
+    }, {
+      "id": "b9b1f5d7-bae7-4b1e-aff3-733d7325a1da",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "156cfcb5-a815-4181-85ee-7d493ea02d9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IconLoginButton",
+      "targets": [
+        ["css=.IconLoginButton", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eb58109d-3a12-4a34-8794-600bb749071d",
+    "name": "4.LoginCPFValidoSemFormatacao_Senha_Errada",
+    "commands": [{
+      "id": "025d3fee-ce52-435f-b236-9d958be4e50e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39b8dbd5-bef6-4de0-9e01-9dc105a7ddb1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5868ac0d-d4a7-4843-b655-f83ef583c619",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51f0abeb-83e2-42f0-b1da-315d33b5cf9d",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "39873248803"
+    }, {
+      "id": "3f5dcf2a-1548-4abd-a18b-f73385ebbce7",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "121312312"
+    }, {
+      "id": "3fcb355d-40b4-4e0b-9054-4fe0045f5f8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dIHSXr",
+      "targets": [
+        ["css=.sc-dIHSXr", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f4b4af04-72cf-4481-bad2-3c3aa81d1913",
+    "name": "6.LoginCNPJInvalido_Senha_Errada",
+    "commands": [{
+      "id": "80a1ada5-a72c-4bee-822e-f7509fefd313",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc2c1856-c979-48cb-8a4a-62496d7284de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5909b2c9-d60c-469a-9c42-69e4c13e8fb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9964c132-c912-4294-9317-06aa4346b3b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "55576177000122"
+    }, {
+      "id": "110f052c-bc49-4d24-90fb-cf366854691e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-dIHSXr > span",
+      "targets": [
+        ["css=.sc-dIHSXr > span", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae0ad03-0320-4eeb-80c1-d5cf7cb8084f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "123123121"
+    }, {
+      "id": "3ed1f58a-3711-4940-9676-e497f54aa2fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dIHSXr > span",
+      "targets": [
+        ["css=.sc-dIHSXr > span", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9b43042c-0aef-4d83-95b9-c61caa3fef04",
+    "name": "9.LoginCPFInvalidoComFormatacaoCorreta_Senha_Invalida",
+    "commands": [{
+      "id": "99171649-cf69-4103-9f08-a3dff26fa8b7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79c5c16c-90a6-498a-882a-29ef4d8d02c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8a6ae90-2f26-4991-8252-18142e4993f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ff831b2-a3db-4411-a089-f606fd1b1641",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "999.999.999-99"
+    }, {
+      "id": "f666417a-7bd6-4075-b029-f8814c0cff5e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1d2as3dsa123"
+    }, {
+      "id": "47b57b58-0ba1-44b7-9def-5a5cdc2f3d5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glmRUI",
+      "targets": [
+        ["css=.glmRUI", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b897f120-75d0-4193-b8e9-4fc1b6364303",
+    "name": "15.LoginCNPJValidoComFormatacao_Senha_Correta",
+    "commands": [{
+      "id": "a46dd38e-87e6-41ef-9f65-50b9bad6e755",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2b5dd89-9495-4dbd-9804-60164e600b55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc0f9512-0a0d-4bd1-99d8-b51e9ffcaaf2",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dd9700c-090f-4f48-a967-ed0c9de24137",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "55.576.177/0001-22"
+    }, {
+      "id": "3c3fe3a7-f27a-43c7-9cde-09f9e6a9c3a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "GUgu@2003"
+    }, {
+      "id": "473debef-33c6-4743-a429-dac471e1916d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "dc69d49a-3851-4e67-9987-3c9f3e3dcd1f",
+    "name": "17.TodosOsCamposEmBranco",
+    "commands": [{
+      "id": "b40ff006-bd0b-4587-a635-31c393d98a5e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a973017-ab82-4b3f-9d36-ecf630937b9e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c963251c-bee2-4411-bc09-d7ef3f57677e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span:nth-child(2)",
+      "targets": [
+        ["css=span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "521334cc-ce02-4a15-bbeb-6efd83f21bfd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=span:nth-child(2)",
+      "targets": [
+        ["css=span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d47354-ac82-493b-944e-af8cefa76057",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.kBhgBL",
+      "targets": [
+        ["css=.kBhgBL", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19aa5c22-57c8-436c-9960-6ce533afdad7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kBhgBL",
+      "targets": [
+        ["css=.kBhgBL", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32ebb026-ac04-4dab-a3e9-a7d2b1d4565d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-bkSUFG",
+      "targets": [
+        ["css=.sc-bkSUFG", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a937e11a-d9f9-4950-a9a7-cd13ac93755f",
+    "name": "14.LoginCNPJVálidoComFormatacao_Senha_Incorreta",
+    "commands": [{
+      "id": "8e40ae5c-650a-48c2-b169-859501d5be62",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0557f66b-8946-44f5-9c6b-e34c4e438015",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a002a056-7605-4be0-998a-be3643a88c5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aafcd43-773e-4fa7-a4b9-9fb75241be8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "55.576.177/0001-22"
+    }, {
+      "id": "5c396fbd-a850-405e-a370-6094628acbc9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-huFNyZ > span",
+      "targets": [
+        ["css=.sc-huFNyZ > span", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06871a48-602a-4344-907a-9942ea7c2080",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "123223132"
+    }, {
+      "id": "7ec294fc-bef3-4b80-ba9d-3c5a59ffe529",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-huFNyZ > span",
+      "targets": [
+        ["css=.sc-huFNyZ > span", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bf8fae29-a625-4210-aa3f-770e750f01a1",
+    "name": "18.Propaganda_Central",
+    "commands": [{
+      "id": "302ce1b8-0793-4973-82a8-7e76e9cbafae",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee1e2c25-173b-45b5-a13e-033fec5c856c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ee1e5a6-bda1-4192-8c9d-6ca733caadcf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#logoKabum > img",
+      "targets": [
+        ["css=#logoKabum > img", "css:finder"],
+        ["xpath=//img[@alt='Logo Kabum']", "xpath:img"],
+        ["xpath=//a[@id='logoKabum']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f2825e-15e4-480c-a869-86f8dfef0c43",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-cgjDci",
+      "targets": [
+        ["css=.sc-cgjDci", "css:finder"],
+        ["xpath=//img[@alt='LOGIN_MONTE O SEU PC_08042024']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52c07ae-d9c0-4bc1-a2a1-8c3ec313aa63",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-huFNyZ",
+      "targets": [
+        ["css=.sc-huFNyZ", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3678d303-a130-4738-aba3-d23860ea37c6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-huFNyZ",
+      "targets": [
+        ["css=.sc-huFNyZ", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e0442ef-7a4d-49e7-a00a-37141999332f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-cgjDci",
+      "targets": [
+        ["css=.sc-cgjDci", "css:finder"],
+        ["xpath=//img[@alt='LOGIN_MONTE O SEU PC_08042024']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ebb80ff1-de55-46eb-8ecf-9e4b545b1d17",
+    "name": "19.LinkPoliticasDaEmpresa",
+    "commands": [{
+      "id": "743a4c11-efc8-4c8a-a0b5-90771f7b7b64",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf3dd761-5442-4206-bb9e-773ab8fe58e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48546362-52bb-451c-823b-dc07addee152",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.glmRUI",
+      "targets": [
+        ["css=.glmRUI", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c268f6bd-dc96-414f-b2fc-5140395629f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,217)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14842c7b-9235-4469-a87b-c3f05f504965",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Políticas de Privacidade",
+      "targets": [
+        ["linkText=Políticas de Privacidade", "linkText"],
+        ["css=.sc-gfoqjT a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Políticas de Privacidade')]", "xpath:link"],
+        ["xpath=//footer[@id='footer']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/privacidade')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Políticas de Privacidade')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "549ef38b-d1d5-46df-83dd-738caa316444",
+    "name": "20.PropagandaSegurancaGoogle",
+    "commands": [{
+      "id": "5470b8a8-bc6b-4ac1-aa71-012c6e25698c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98c35d45-44e2-4c22-8735-48c0468420e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a7b864e-7e81-4d9a-9e52-d8766195fce2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,597)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca69b927-e795-4e94-a88e-05dba8d4d200",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-DWsrX:nth-child(3) .sc-iLWXdy",
+      "targets": [
+        ["css=.sc-DWsrX:nth-child(3) .sc-iLWXdy", "css:finder"],
+        ["xpath=//img[@alt='GOOGLE SITE SEGURO']", "xpath:img"],
+        ["xpath=//div[@id='selosFooter']/div/div/div[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4485",
+      "windowTimeout": 2000
+    }, {
+      "id": "5e8e90d3-4582-47b0-a1c4-558daf6ca844",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4485}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baec2cfa-d773-48b1-9ec7-938b8f817200",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Remoções de conteúdo devido a direitos de autor",
+      "targets": [
+        ["linkText=Remoções de conteúdo devido a direitos de autor", "linkText"],
+        ["css=.h-c-footer__site-links-column:nth-child(3) .h-c-footer__site-links-list-item:nth-child(1) > .h-c-footer__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Remoções de conteúdo devido a direitos de autor')]", "xpath:link"],
+        ["xpath=//mat-sidenav-content[@id='scrolling-element']/site-footer/div/footer/nav/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/copyright?hl=pt-PT')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20037b0b-1592-4be2-8d50-3bfd80b5e874",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Remoções de conteúdo devido a direitos de autor",
+      "targets": [
+        ["linkText=Remoções de conteúdo devido a direitos de autor", "linkText"],
+        ["css=.h-c-footer__site-links-column:nth-child(3) .h-c-footer__site-links-list-item:nth-child(1) > .h-c-footer__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Remoções de conteúdo devido a direitos de autor')]", "xpath:link"],
+        ["xpath=//mat-sidenav-content[@id='scrolling-element']/site-footer/div/footer/nav/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/copyright?hl=pt-PT')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fa36a03d-daac-4a20-80bf-33ea2ed28545",
+    "name": "21.CertificadoExcelencia",
+    "commands": [{
+      "id": "b0693a92-2661-4447-af92-dad5d9e3cb2c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3a28081-d255-4c33-ab97-27622734ca5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a72f2592-c150-40fe-8e6a-6d8cc8ba34c2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,428)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5327cc71-6028-40cd-aaa0-2d407a389a76",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-DWsrX:nth-child(3) .sc-iLWXdy",
+      "targets": [
+        ["css=.sc-DWsrX:nth-child(3) .sc-iLWXdy", "css:finder"],
+        ["xpath=//img[@alt='GOOGLE SITE SEGURO']", "xpath:img"],
+        ["xpath=//div[@id='selosFooter']/div/div/div[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3182f7e6-dd0c-4439-9a0e-496dfc6e0680",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-DWsrX:nth-child(3) .sc-iLWXdy",
+      "targets": [
+        ["css=.sc-DWsrX:nth-child(3) .sc-iLWXdy", "css:finder"],
+        ["xpath=//img[@alt='GOOGLE SITE SEGURO']", "xpath:img"],
+        ["xpath=//div[@id='selosFooter']/div/div/div[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea0d29d2-4153-4bf8-8d55-79a778953e4e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-DWsrX:nth-child(4) .sc-iLWXdy",
+      "targets": [
+        ["css=.sc-DWsrX:nth-child(4) .sc-iLWXdy", "css:finder"],
+        ["xpath=//img[@alt='Ebit diamante excelente']", "xpath:img"],
+        ["xpath=//div[@id='selosFooter']/div/div/div[4]/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b49688f-f50d-423e-8bac-8706b65690d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-DWsrX:nth-child(4) .sc-iLWXdy",
+      "targets": [
+        ["css=.sc-DWsrX:nth-child(4) .sc-iLWXdy", "css:finder"],
+        ["xpath=//img[@alt='Ebit diamante excelente']", "xpath:img"],
+        ["xpath=//div[@id='selosFooter']/div/div/div[4]/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1976",
+      "windowTimeout": 2000
+    }, {
+      "id": "cb771c9e-597c-4d05-94f7-bd779be8ce05",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07da8c7d-6df5-4764-ba0c-1820613edc32",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1976}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "360e8e95-f96c-4238-8c87-50ef1c1ea0b2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59216591-0f8b-47b4-8a4b-bc8f61b47d02",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-DWsrX:nth-child(4) .sc-iLWXdy",
+      "targets": [
+        ["css=.sc-DWsrX:nth-child(4) .sc-iLWXdy", "css:finder"],
+        ["xpath=//img[@alt='Ebit diamante excelente']", "xpath:img"],
+        ["xpath=//div[@id='selosFooter']/div/div/div[4]/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f8cb868c-64af-4e8c-b779-874af06fef12",
+    "name": "22.CadastroDeUmaContaNova",
+    "commands": [{
+      "id": "d6021b26-983b-4dc9-aaeb-70608b6dfe9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee69778e-7b21-42bd-8094-82fe3208a776",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5ac2036-610a-4342-bafe-8c21d256614d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-cxVGID",
+      "targets": [
+        ["css=.sc-cxVGID", "css:finder"],
+        ["xpath=//div[@id='main-content']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a2d70c2-fe2d-4ac4-b2a8-8d7e9a340ffc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-cIfMiO > a",
+      "targets": [
+        ["css=.sc-cIfMiO > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cadastre-se')]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cadastro')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5dc28537-88b2-416d-9660-be82f5f30eb7",
+    "name": "23.RecuperarSenha",
+    "commands": [{
+      "id": "175d9ffa-02f1-4f32-956e-602472ec439b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47ef2788-0a80-47fd-b241-ac25a3e2fc8f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c81ab18-55a9-446b-b4de-b13789e4d48b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Esqueceu a senha?",
+      "targets": [
+        ["linkText=Esqueceu a senha?", "linkText"],
+        ["css=.sc-fwPIEZ", "css:finder"],
+        ["xpath=//a[contains(text(),'Esqueceu a senha?')]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[2]/form/div[4]/a", "xpath:idRelative"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Esqueceu a senha?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "63298df1-a154-4b72-a868-60dd8b69a9a8",
+    "name": "24.Acessibilidade",
+    "commands": [{
+      "id": "fd5baf28-0866-4657-8071-e7a1539924e4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a355c2f-5f92-498c-b87a-89abe0218eb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afe12fc3-c389-4199-902f-86ede130d9c8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=botaoLoginGoogle",
+      "targets": [
+        ["id=botaoLoginGoogle", "id"],
+        ["css=#botaoLoginGoogle", "css:finder"],
+        ["xpath=//button[@id='botaoLoginGoogle']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f20225-3382-4b14-9c14-decf4fbe16f2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-izQBue",
+      "targets": [
+        ["css=.sc-izQBue", "css:finder"],
+        ["xpath=//button[@id='botaoLoginGoogle']/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "684d2de5-de16-4d6d-beba-8af6e4283ed4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-izQBue",
+      "targets": [
+        ["css=.sc-izQBue", "css:finder"],
+        ["xpath=//button[@id='botaoLoginGoogle']/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "324fc3ad-4c15-4dfd-8261-ace2304eec55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-gvPdwL path:nth-child(2)",
+      "targets": [
+        ["css=.sc-gvPdwL path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d4bca8c-140b-4f63-8204-63a84960df0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-gvPdwL > svg",
+      "targets": [
+        ["css=.sc-gvPdwL > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded41b5f-1e8b-4f6b-8917-d9434704946d",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.compreConfieImg",
+      "targets": [
+        ["css=.compreConfieImg", "css:finder"],
+        ["xpath=//img[@alt='Compre e confie']", "xpath:img"],
+        ["xpath=//a[@id='seloEconfy']/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3652ac3-60f6-4800-aa3d-d111b981e0ad",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.sc-dOoqMo",
+      "targets": [
+        ["css=.sc-dOoqMo", "css:finder"],
+        ["xpath=//div[@id='selosFooter']/div/div", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f10f51e-d170-4228-b508-75d026719ea2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dOoqMo",
+      "targets": [
+        ["css=.sc-dOoqMo", "css:finder"],
+        ["xpath=//div[@id='selosFooter']/div/div", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c53d93d-a398-4082-b583-b8b7a08e4705",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.compreConfieImg",
+      "targets": [
+        ["css=.compreConfieImg", "css:finder"],
+        ["xpath=//img[@alt='Compre e confie']", "xpath:img"],
+        ["xpath=//a[@id='seloEconfy']/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7fe092cd-c7b6-446d-9546-a91df1179b82",
+    "name": "25.SiteBlindado",
+    "commands": [{
+      "id": "ac2a6d48-048d-411f-9a6e-51983980f177",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46a7ce2c-0161-4169-b05a-728b53832f58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c0e9c43-8c51-4cd6-a4be-b44080897ff7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,106)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26209462-f26f-4186-bfc9-7a05d7a25f1d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,566)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9fedbf9-0172-4407-b7fd-f3e15503f6e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sb-shield-2 > img",
+      "targets": [
+        ["css=#sb-shield-2 > img", "css:finder"],
+        ["xpath=//img[@alt='site blindado']", "xpath:img"],
+        ["xpath=//a[@id='sb-shield-2']/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9752",
+      "windowTimeout": 2000
+    }, {
+      "id": "6ba06728-94a5-4e0d-abf6-9a773c12fe08",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9752}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4f7cf340-cd04-4d41-a66b-dfd426e03631",
+    "name": "26.Politicas_e_MarketPlace",
+    "commands": [{
+      "id": "4d13d057-8a06-4dfa-98ee-0fab88db6b2c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8828b00c-0c2d-4caf-83e7-349b2539017e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "481317b5-b818-4395-8dda-31dd3f13490f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,17)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77ffd8e6-fe64-4188-b0fd-979fd6aacd2d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Políticas do Site e Marketplace",
+      "targets": [
+        ["linkText=Políticas do Site e Marketplace", "linkText"],
+        ["css=.sc-gfoqjT a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Políticas do Site e Marketplace')]", "xpath:link"],
+        ["xpath=//footer[@id='footer']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/politicas')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Políticas do Site e Marketplace')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6bb6b50e-7a28-4036-907e-e2a8bbe43461",
+    "name": "27.PoliticasDePrivacidade",
+    "commands": [{
+      "id": "8721a50d-6d53-42a5-a36d-72f4b99353d8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2d7b4df-fe3e-42f1-b8cb-34dbaf113941",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd8a96b8-36c9-4549-a89d-c45654b1291d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Políticas de Privacidade",
+      "targets": [
+        ["linkText=Políticas de Privacidade", "linkText"],
+        ["css=.sc-gfoqjT a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Políticas de Privacidade')]", "xpath:link"],
+        ["xpath=//footer[@id='footer']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/privacidade')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Políticas de Privacidade')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7ff2132-7874-498c-8195-992aed9c705a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-37a1c5ac-0",
+      "targets": [
+        ["css=.sc-37a1c5ac-0", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='header']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "963fabbe-4aca-4d7a-a9ae-7a09adcfabc9",
+    "name": "28.Direitos_e_Privacidades",
+    "commands": [{
+      "id": "71eff0d3-fae2-40f4-bc0c-2a4e453617d2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36b556d7-6387-48ae-9901-d6a70fd2dfe3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92533869-af6f-4ff7-b264-d26595bfe379",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4ebc4b8-5b32-442d-90c0-8dfa5595fb93",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,171)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a97c3eb-faf1-495b-b316-29bc1845f9f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Exerça seus Direitos de Privacidade",
+      "targets": [
+        ["linkText=Exerça seus Direitos de Privacidade", "linkText"],
+        ["css=.sc-gfoqjT a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Exerça seus Direitos de Privacidade')]", "xpath:link"],
+        ["xpath=//footer[@id='footer']/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/portaldeprivacidade')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Exerça seus Direitos de Privacidade')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba1b5a8c-19ce-42c3-a613-caad8d833841",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bef5f584-9681-4b15-9c87-bb03bc6baa10",
+    "name": "29.MenuPrincipal_Logo",
+    "commands": [{
+      "id": "7632b8c8-ec34-4225-86a4-afc2da1ed2da",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa58fba1-fe37-4359-b01f-c1a32417f239",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "508b5663-4316-4900-b79d-5befb8a9d2ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#logoKabum > img",
+      "targets": [
+        ["css=#logoKabum > img", "css:finder"],
+        ["xpath=//img[@alt='Logo Kabum']", "xpath:img"],
+        ["xpath=//a[@id='logoKabum']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab254c6a-7e99-4a10-bc1b-f159b7c33a47",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#logoKabum > img",
+      "targets": [
+        ["css=#logoKabum > img", "css:finder"],
+        ["xpath=//img[@alt='Logo Kabum']", "xpath:img"],
+        ["xpath=//a[@id='logoKabum']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60b5af86-c16b-4332-9512-9de68a77fd91",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#logoKabum > img",
+      "targets": [
+        ["css=#logoKabum > img", "css:finder"],
+        ["xpath=//img[@alt='Logo Kabum']", "xpath:img"],
+        ["xpath=//a[@id='logoKabum']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e647328-6f1a-490e-bbcb-bf4c3ae80ae7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logoKabum > img",
+      "targets": [
+        ["css=#logoKabum > img", "css:finder"],
+        ["xpath=//img[@alt='Logo Kabum']", "xpath:img"],
+        ["xpath=//a[@id='logoKabum']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2ebe613-1fd7-4f4d-8f36-23a43c7624d5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#logoKabum > img",
+      "targets": [
+        ["css=#logoKabum > img", "css:finder"],
+        ["xpath=//img[@alt='Logo Kabum']", "xpath:img"],
+        ["xpath=//a[@id='logoKabum']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc5856c6-ded9-4531-9eeb-eee90d3d50b8",
+    "name": "30.LoginComGoogle",
+    "commands": [{
+      "id": "f61f4a3c-4544-42dd-a87a-84dba32d5cec",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57ec511e-cd91-4b95-bb4a-3e2aa979647b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a2c7c90-a371-44cd-b49f-118c0126f605",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-izQBue",
+      "targets": [
+        ["css=.sc-izQBue", "css:finder"],
+        ["xpath=//button[@id='botaoLoginGoogle']/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1742",
+      "windowTimeout": 2000
+    }, {
+      "id": "c593d4ff-6d80-431e-aa93-c4ad869520f9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1742}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "600ebc3a-52ac-4673-9551-61f6e90bce4b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.kabum.com.br/login?redirect_uri=https://www.kabum.com.br/"],
+  "plugins": []
+}
