@@ -22,5 +22,5 @@ O redirecionamento de página ao clicar em propagandas, cadastro de senha e recu
 
 
 ### ⌨️ Autores
-RA: 223126
-José Gustavo da Silva Oliveira
+ - RA: 223126
+ - José Gustavo da Silva Oliveira
