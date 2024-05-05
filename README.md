@@ -20,6 +20,7 @@ O redirecionamento de página ao clicar em propagandas, cadastro de senha e recu
 
 ### 🔩 Registro de Testes
 
+ - https://youtu.be/SXYaTBZPsJE
 
 ### ⌨️ Autores
  - RA: 223126
